@@ -25,6 +25,7 @@ The goal of this repository is to provide an example of a user management backen
 - open a shell window and CD to the repository directory
 - execute "npm install" to install the required npm packages
 - create a private/public key pair and place them in the root of where this repository is cloned (user_management_public.key, user_management.key)
+- create a public folder and within it an images folder so public/images folder exists in the root of where this repository is cloned
 - execute "nodemon app" to start the server
 
 ## RESTful API Endpoints:
