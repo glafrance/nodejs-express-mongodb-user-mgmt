@@ -1,3 +1,16 @@
+# User uploaded images
+/public/images
+
+# Private settings not stored in repository
+config.js
+
+# mkcert localhost certificates for https
+localhost-key.pem
+localhost.pem
+
+user_management_public.key
+user_management.key
+
 # Logs
 logs
 *.log
