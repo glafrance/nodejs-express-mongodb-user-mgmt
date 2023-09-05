@@ -12,12 +12,12 @@ The goal of this repository is to provide an example of a user management backen
 ### The code in this repository is example code, and is not production ready. Use it at your own risk. Enhance this code and perform all necessary tests to ensure it is secure and bug free if you use it in your projects.
 
 ## This backend uses these technologies:
-- [Node.js] (https://nodejs.org)
-- [express] (https://expressjs.com)
-- [jsonwebtoken] (https://www.npmjs.com/package/jsonwebtoken)
-- [mongoose] (https://mongoosejs.com)
-- [bcrypt] (https://www.npmjs.com/package/bcrypt)
-- [nodemailer] (https://www.npmjs.com/package/nodemailer)
+- [Node.js](https://nodejs.org)
+- [express](https://expressjs.com)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [mongoose](https://mongoosejs.com)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [nodemailer](https://www.npmjs.com/package/nodemailer)
 - and other technologies :-)
 
 ## Running the Backend
