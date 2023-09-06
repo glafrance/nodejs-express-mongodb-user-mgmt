@@ -26,12 +26,14 @@ The goal of this repository is to provide an example of a user management backen
 - execute "npm install" to install the required npm packages
 - create a private/public key pair and place them in the root of where this repository is cloned (user_management_public.key, user_management.key)
 - create a file "config.js" in the root of where this repository is cloned, with these properties:
+  
     module.exports = {
       DB_NAME: "NAME_OF_MONGODB_DATABASE_YOUR_APP_SHOULD_USE",
       SENDER_EMAIL_ADDRESS: "EMAIL_ADDRESS_TO_SEND_RESET_PASSWORD_EMAILS",
       SENDER_APP_PASSWORD: "GMAIL_APP_PASSWORD_FOR_GOOGLE_ACCOUNT_TO_SEND_RESET_PASSWORD_EMAILS",
       BCRYPT_SALT: 8
     };
+  
 - create a public folder and within it an images folder so public/images folder exists in the root of where this repository is cloned
 - execute "nodemon app" to start the server
 
