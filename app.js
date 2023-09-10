@@ -3,6 +3,7 @@ const https = require("https");
 const fs = require("fs");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const config = require("./config");
 
 mongoose.Promise = global.Promise;
 
@@ -40,7 +41,7 @@ const options = {
 
 const PORT = 4002;
 
-mongoose.connect('mongodb://localhost:27017/usermgmt',
+mongoose.connect(`mongodb://localhost:27017/${config.DB_NAME}`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
